@@ -7,7 +7,7 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
-  user = [
+  users = [
     {
       id: 1,
       name: 'Leanne Graham',
